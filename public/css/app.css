@@ -8350,6 +8350,8 @@ button.close {
   }
 }
 
+/********************/
+
 /* universal */
 
 body {
@@ -8419,6 +8421,14 @@ p {
 
 #logo:hover {
   color: #fff;
+}
+
+#logout {
+  cursor: default;
+}
+
+#logout:hover {
+  background-color: transparent;
 }
 
 /* footer */
