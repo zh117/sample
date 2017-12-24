@@ -51,7 +51,7 @@ class UsersController extends Controller
     {
         $this->validate($request,[
             'name' => 'required|max:50',
-            'password' => 'nullable|confirmed|mix:6'
+            'password' => 'nullable|confirmed|min:6'
         ]);
 
         $this->authorize('update',$user);
